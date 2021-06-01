@@ -11,14 +11,6 @@ export default function App() {
 
   return (
     <div className='container'>
-      <div className='info'>
-        <Typography 
-          color='secondary'
-          variant="h6">
-          Pohditko kiihdyttämistä? <br></br>
-          Ei hätää tämä laskuri kertoo sinulle, onko siitä hyötyä.
-        </Typography>
-      </div>
       <div className='calcWrapper'>
         <div className='appBar'>
           <div className='toolBar'>
