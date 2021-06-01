@@ -12,9 +12,6 @@ export default function CustomSlider(props) {
     const changeSpeed = (event, value) => {
         props.setSpeed(value)
     }
-
-    const changeCommitted = () => {
-    }
     
     return (
         <div className='sliderContainer'>
@@ -31,8 +28,7 @@ export default function CustomSlider(props) {
                     marks={speedMarks}
                     valueLabelDisplay='auto'
                     value={props.speed}
-                    onChange={changeSpeed}
-                    onChangeCommitted={changeCommitted}> 
+                    onChange={changeSpeed}> 
                 </Slider>
             </div>
             <div className='distanceSlider'>
@@ -47,8 +43,7 @@ export default function CustomSlider(props) {
                     marks={distanceMarks}
                     valueLabelDisplay='auto'
                     value={props.distance}
-                    onChange={changeDistance}
-                    onChangeCommitted={changeCommitted}> 
+                    onChange={changeDistance}> 
                 </Slider>
             </div>
         </div>
