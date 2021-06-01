@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.container {
+    width: 60%;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin: auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sliderContainer {
+    padding-left: 4%;
+    padding-right: 4%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.speedSlider {
+    margin: 1vh;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.distanceSlider {
+    margin: 1vh
 }
-
-.App-link {
-  color: #61dafb;
+.carSelection {
+    margin: 1vh;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.toolBar {
+    text-align: center;
+    color: white;
+}
+.appBar {
+    background-color: #3f50b5;
+    height: 50px;
+}
+.carButtons {
+    margin-top: 1vh;
+}
+.info {
+    flex: 1;
+    padding: 2%;
+}
+.calcWrapper {
+    flex: 2;
+    width: 40%;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-width: 2px;
+    border-color: #3f50b5;
+    border-style: solid;
+    padding-bottom: 2%;
+}
+.results {
+    display: flex;
+    flex-direction: row;
+}
+.consumptionResults {
+    flex: 1;
+}
+.timeResults {
+    flex: 1;
 }
