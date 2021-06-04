@@ -1,6 +1,6 @@
 ### Autoilu Mittari
 
-Autoilu Mittari is fully coded with React using Windows 10. Autoilu Mittari is an app to calculate fuel and time consumption with different speeds and car types. \
+Autoilu Mittari is an app to calculate fuel and time consumption with different speeds and car types and written in React using Windows 10. \
 It uses two different sliders as inputs. the speed slider has two markers to compare two different speeds. Consumption and time results are displayed below for both speeds. \
 No backend required. 
 
